@@ -1,0 +1,38 @@
+.signIn__screen{
+    padding: 70px;
+    max-width: 300px;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 0 auto;
+}
+.signIn__screen > form{
+    display: grid;
+    flex-direction: column;
+}
+.signIn__screen > form > input{
+    padding: 10px;
+    border: none;
+    border-width: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.signIn__screen > form > h1{
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+.signIn__screen > form > button{
+    color: #fff;
+    background-color: #e50914;
+    padding: 10px 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.signInScreen__gray{
+    color: gray;
+}
+.signInScreen__link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
